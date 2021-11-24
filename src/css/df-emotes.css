@@ -1,0 +1,46 @@
+.smajlik.vtipne.isi-face-vtipne:before,
+.smajlik.zajimave.isi-face-zajimave:before,
+.smajlik.prinosne.isi-face-prinosne:before,
+.smajlik.otravne.isi-face-otravne:before,
+.smajlik.mimo-tema.isi-face-mimo-tema:before,
+.smajlik.nemam-nazor.isi-face-nemam-nazor:before {
+    content: none !important;
+}
+
+.smajlik.vtipne.isi-face-vtipne,
+.smajlik.zajimave.isi-face-zajimave,
+.smajlik.prinosne.isi-face-prinosne,
+.smajlik.otravne.isi-face-otravne,
+.smajlik.mimo-tema.isi-face-mimo-tema,
+.smajlik.nemam-nazor.isi-face-nemam-nazor {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+.smajlik.vtipne.isi-face-vtipne {
+    background-image: var(--image-vtipne);
+}
+
+.smajlik.zajimave.isi-face-zajimave {
+    background-image: var(--image-zajimave);
+}
+
+.smajlik.prinosne.isi-face-prinosne {
+    background-image: var(--image-prinosne);
+}
+
+.smajlik.otravne.isi-face-otravne {
+    background-image: var(--image-otravne);
+}
+
+.smajlik.mimo-tema.isi-face-mimo-tema {
+    background-image: var(--image-mimo-tema);
+}
+
+.smajlik.nemam-nazor.isi-face-nemam-nazor {
+    background-image: var(--image-nemam-nazor);
+}

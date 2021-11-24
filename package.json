@@ -1,0 +1,28 @@
+{
+  "name": "is-df-emotes",
+  "version": "1.0.0",
+  "author": "Juraj Marcin",
+  "scripts": {
+    "dev@chrome": "webpack --watch --config ./webpack/chrome/webpack.dev.js",
+    "dev@firefox": "webpack --watch --config ./webpack/firefox/webpack.dev.js",
+    "build@chrome": "webpack --config ./webpack/chrome/webpack.prod.js",
+    "build@firefox": "webpack --config ./webpack/firefox/webpack.prod.js"
+  },
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^8.0.1",
+    "@types/webextension-polyfill": "^0.8.2",
+    "copy-webpack-plugin": "^10.0.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.2",
+    "web-ext": "^6.5.0",
+    "web-ext-plugin": "^1.4.0",
+    "webpack": "^5.64.3",
+    "webpack-cli": "^4.9.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.164",
+    "webextension-polyfill": "^0.8.0"
+  }
+}
